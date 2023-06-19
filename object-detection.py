@@ -20,7 +20,7 @@ client = boto3.client('rekognition', region_name='ap-northeast-2',
 #사진 받기
 photo = '1593753545389.jpg'
 
-with open(photo, 'rb') as source image_file: 
+with open(photo, 'rb') as image_file: 
         source_bytes = image_file.read()
 
 #사진 감지
